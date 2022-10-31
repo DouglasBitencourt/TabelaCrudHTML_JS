@@ -1,0 +1,45 @@
+
+.botoes button{
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+#btn-edit{
+    background-color: #12da0b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-flex;
+    
+    
+    }
+    #btn-remove{
+    background-color: #da190b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-flex;
+    
+    
+    }
+    
+    #btn-add{
+    background-color: #28a2e4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-flex;
+    
+    }
+    
+    #btn-enviar{
+    background-color: #cad52d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-flex;
+    }

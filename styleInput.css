@@ -1,0 +1,25 @@
+.tableInputs input, select{
+font-size: 1em;
+border-width: 1px;
+border-color: #8DC9E1;
+font-size: 1.5em;
+padding: 5px;
+margin: 5px;
+}
+.labelCss{
+   font-weight: bold ;
+}
+
+.tableInputs input:focus{
+background: #8dc9e149;
+
+}
+
+    div{
+        line-height: 1.6em;
+        padding-left: 2em;
+        padding-right: 2em;
+        font-family: 'Helvetica', Times, serif;
+        clear: both;
+    }
+    

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabela CRUD</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="styleInput.css">
+        <link rel="stylesheet" href="styleButtons.css">
+       
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="tabela">
+                <table id="table" class="table">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Valor pago</th>
+                        <th>Instituição Beneficiaria</th>
+                    </tr>
+                    <tr>
+                        <td>Rafael</td>
+                        <td>rafael@professor.sc.senac.br</td>
+                        <td>4000</td>
+                        <td >creche</td>
+                    </tr>
+                    
+                </table>
+                <br>
+            </div>
+            <div class="tableInputs">
+
+               <label class="labelCss">Nome: </label> <input type="text" name="nome" id="nome">  
+               <label class="labelCss"> Email: </label><input type="text" name="email" id="email"> <br>
+               <label class="labelCss">Valor pago: </label><input type="number" name="valor_pago" id="valor_pago"> 
+                <label class="labelCss">Instituição financeira: </label> <select name="selecionado"id="selecionado">  <br>
+                    <option disabled selected></option>
+                    <option value="hospital">Hospital</option>
+                    <option value="creche">Creche</option>
+                     <option value="museu">Museu</option> 
+                </select>
+                    <div class="botoes">
+                <br>
+                <button id="btn-add"  class="buttons" onclick="addHtmlTableRow();">Adicionar</button>
+                <button id ="btn-edit" class="buttons" onclick="editHtmlTbleSelectedRow();">Editar</button>
+                <button id="btn-remove"class="buttons"  onclick="removeSelectedRow();">Remover</button>
+                <button id="btn-enviar" class="buttons" onclick="SubmitData()">Enviar dados</button>
+                  </div>
+            </div>
+        </div>
+        <script src="scriptJS.js"></script>
+    </body>
+    </html>

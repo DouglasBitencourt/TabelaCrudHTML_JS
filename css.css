@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.table{ 
+    cursor: pointer;
+    font-size: 1em; 
+    text-align: justify;
+    text-justify: inter-word;
+   
+}
+
+table:nth-child(1) tr:last-child td{
+    border-bottom:  solid 1px rgb(14, 218, 190); 
+}
+
+.table td{
+    word-break:break-all;
+    border: solid 1px rgba(0, 0, 0, 0.37);
+    vertical-align:text-top;
+
+}
+
+
+th{
+    text-align: center;
+    background-color: #8DC9E1;
+    color: #F5F5F5;
+    border-bottom: solid 3px;
+
+}
+
+tr:hover{
+    color: #28a2e4;
+}
+td {
+    padding: 20px;
+}
+
